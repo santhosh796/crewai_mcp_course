@@ -1,0 +1,23 @@
+=== STDOUT ===
+Lesson 3: Advanced CrewAI Patterns with MCP Server
+Warning: FASTMCP environment variables are not set. Running this lesson in demo mode.
+CrewAI package not installed. Using demo researcher agent.
+CrewAI package not installed. Using demo writer agent.
+CrewAI package not installed. Using demo reviewer agent.
+Researcher running query: Find the most important CrewAI with FastMCP integration patterns.
+
+Writer creating draft...
+
+Reviewer checking draft...
+
+Workflow complete. Final report:
+
+[writer] Response to prompt: Produce a final report using the draft and reviewer feedback.
+Draft report: [writer] Response to prompt: Use the research notes to draft a technical summary.
+Research notes: [researcher] Response to prompt: Find the most important CrewAI with FastMCP integration patterns.
+Reviewer feedback: [reviewer] Response to prompt: Review the draft and suggest improvements.
+Draft report: [writer] Response to prompt: Use the research notes to draft a technical summary.
+Research notes: [researcher] Response to prompt: Find the most important CrewAI with FastMCP integration patterns.
+
+=== STDERR ===
+(no stderr)
